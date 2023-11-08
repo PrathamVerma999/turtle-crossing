@@ -17,7 +17,15 @@ class Player(Turtle):
     
     def move(self):
         self.forward(MOVE_DISTANCE)
+        
+        
+    def game_over(self):
+        self.goto(0, 0)
+        self.write("GAME OVER", align="center", font=("Ariel", 40, "normal"))
     
-    # def end(self):
-    #     if self.ycor >= 280:
+    def is_at_finish_line(self):
+        if self.ycor() >= 280:
+            return True
+        else:
+            return False
             
