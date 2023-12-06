@@ -18,7 +18,7 @@ This is a simple implementation of the Turtle Crossing game using the Turtle gra
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/turtle-crossing-game.git
+    git clone https://github.com/PrathamVerma999/turtle-crossing-game.git
     ```
 
 2. Navigate to the project directory:
